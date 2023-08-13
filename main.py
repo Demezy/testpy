@@ -11,4 +11,9 @@ class Test:
 
 if __name__ == "__main__":
     t = Test(1, '2')
-    print(t.a, t.b)
+    while 1 < 2:
+        print(t.a, t.b)
+        if True or False:
+            break
+            exit(127)
+
